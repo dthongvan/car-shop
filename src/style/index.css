@@ -136,6 +136,10 @@ li {
     padding-left: 17px;
 }
 
+.maining-input input:focus-visible {
+    outline: none;
+}
+
 .icon-search {
     display: block;
     background: rgba(66, 0, 255, 0.8);
@@ -154,6 +158,30 @@ li {
     max-width: 1280px;
     width: 100%;
     margin: 0 80px 80px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 6px 14px 5.6px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #F7F7F7;
+    color: #000000;
+    border: 1px solid #4200FF;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
 }
 
 .index-shop__row .box {
@@ -209,6 +237,7 @@ li {
     width: 100%;
     margin: 0 auto;
     display: flex;
+    margin-bottom: 20px;
 }
 
 .gallery {
@@ -222,6 +251,7 @@ li {
     width: 100%;
     background: #F7F7F7;
     border-radius: 5px;
+    margin-bottom: 20px;
     margin-right: 20px;
 }
 
@@ -318,10 +348,7 @@ li {
     margin-right: 0;
 } */
 
-.peper {
-    display: flex;
-    justify-content: flex-end;
-}
+.peper {}
 
 
 /* .index-shop__row .box2 {
