@@ -19,7 +19,6 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1440px;
     width: 100%;
     padding: 21px 62px 21px;
     margin: 0 auto;
