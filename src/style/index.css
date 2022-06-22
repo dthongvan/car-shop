@@ -16,9 +16,6 @@ li {
     position: fixed;
     top: 0;
     right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     padding: 21px 62px 21px;
     margin: 0 auto;
@@ -26,11 +23,23 @@ li {
     background: #ffff;
 }
 
-.h-logo a {
+.h-container .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col a {
     display: block;
 }
 
-.h-logo a:hover {
+.col a:hover {
     opacity: 0.6;
 }
 
@@ -87,8 +96,7 @@ li {
 }
 
 .maining {
-    max-width: 1280px;
-    width: 100%;
+    width: 89%;
     position: relative;
     background: #F5F5F5;
     margin: 0 80px 40px;
@@ -154,8 +162,6 @@ li {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    max-width: 1280px;
-    width: 100%;
     margin: 0 80px 80px;
 }
 
@@ -232,16 +238,12 @@ li {
 }
 
 .index-gallery {
-    max-width: 1280px;
-    width: 100%;
     margin: 0 auto;
     display: flex;
     margin-bottom: 20px;
 }
 
 .gallery {
-    max-width: 1280px;
-    width: 100%;
     margin: 0 80px 60px;
 }
 
@@ -367,8 +369,6 @@ li {
 }
 
 .banner {
-    max-width: 1280px;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -418,8 +418,6 @@ li {
 }
 
 .new-product {
-    max-width: 1280px;
-    width: 100%;
     margin: 0 80px 0;
 }
 
